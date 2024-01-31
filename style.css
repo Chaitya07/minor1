@@ -28,7 +28,7 @@
 .main
 {
     padding: 20px 20px;
-    background: linear-gradient(45deg,#f72585 15%,#4361ee 75%,#4cc9f0);
+    background: linear-gradient(45deg,#0c0c0c 15%,#3ec8e7 75%,#ede3e9);
 }
 .header
 {
@@ -69,4 +69,27 @@ a{
     scale: 1.1;
     transition: 1s;
 
+}
+.chaitya{
+    width:700px;
+    margin:60px auto;
+    position:relative;
+}
+.image{
+    width:100%
+}
+.context{
+    position:absolute;
+    bottom:100px;
+    left:40px;
+    color:white;
+}
+.button{
+    background-color:#fff;
+    padding:14px 30px;
+    font-size:16px;
+    border:none;
+    border-radius:12px;
+    cursor: pointer;
+    opacity:0.6;
 }
